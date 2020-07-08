@@ -1,0 +1,43 @@
+.contact-container {
+  background: #53396B;
+  background: -webkit-linear-gradient(top left, #53396B, #5B64AD);
+  background: -moz-linear-gradient(top left, #53396B, #5B64AD);
+  background: linear-gradient(to bottom right, #53396B, #5B64AD);
+  height: 100vh;
+  width: 100%;
+  padding-left: 20px;
+
+  h1 {
+    padding-top: 50px;
+  }
+
+  .contact-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+
+    .contact-content {
+      display: grid;
+      justify-content: center;
+
+      h2 {
+        color: white;
+      }
+
+      li {
+        display: grid;
+        padding: 20px;
+        text-decoration: none;
+        color: white;
+      }
+
+      a {
+        display: grid;
+        padding: 20px;
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+}

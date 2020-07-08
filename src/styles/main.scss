@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  .app-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr 2fr;
+  }
+}
+
+// .navigation-container {
+//   background: lightgreen;
+//   height: 10vh;
+//   width: 100%;
+// }
+
+@import './navigation.scss';
+@import './project/project.scss';
+@import './about/about.scss';
+@import './contact/contact.scss';
