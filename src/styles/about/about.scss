@@ -31,9 +31,15 @@
     height: 60%;
     
     .about-info {
+      height: 50vh;
       width: 600px;
+
+      .about-heading {
+        display: block;
+        position: relative;
+      }
       p {
-        font-size: 1em; line-height:1.5em; margin-bottom:1em;
+        font-size: 1em; line-height:2.2em; margin-bottom:1em;
         font-family: 'Roboto', sans-serif;
         padding: 20px;
         color: white;
@@ -45,6 +51,7 @@
         background: linear-gradient(to bottom, #74848a 0%, #886e7b 100%);
         border-radius: 5px;
         width: 1000px;
+        height: 50vh;
       }
     }
 

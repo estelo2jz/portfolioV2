@@ -7,9 +7,12 @@ export default class About extends Component {
         <h1 id="about"></h1>
         <div className="about-flex">
           <div className="about-info">
-            <h2>Estelo Abellanosa</h2>
-            <h3>Junior Full Stack developer</h3>
-            <h3>with React, Python, and JavaScript</h3>
+            <div className="about-heading">
+              <h2>Estelo Abellanosa</h2>
+              <h3>Junior Full Stack developer</h3>
+              <h3>with React, Python, and JavaScript</h3>
+            
+            </div>
             <div className="about-para">
               <p>
                   Innovative Full Stack Developer with 2 years of experience in building and maintaining websites. 
