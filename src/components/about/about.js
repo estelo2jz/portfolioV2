@@ -10,13 +10,15 @@ export default class About extends Component {
             <h2>Estelo Abellanosa</h2>
             <h3>Junior Full Stack developer</h3>
             <h3>with React, Python, and JavaScript</h3>
-            <p>
-                Innovative Full Stack Developer with 2 years of experience in building and maintaining websites. 
-                Proficient in HTML, SASS, JavaScript, Python, and React, plus modern libraries and frameworks. 
-                Passionate about usability and possess the knowledge and working with computer hardware.
-                I have attended Bottega tech <a href="https://bottega.tech">https://bottega.tech</a>, and <a href="https://www.udemy.com/">Udemy</a> courses on my free time.
-                I enjoy building projects with React, like this website for example, it's built on React.
-            </p>
+            <div className="about-para">
+              <p>
+                  Innovative Full Stack Developer with 2 years of experience in building and maintaining websites. 
+                  Proficient in HTML, SASS, JavaScript, Python, and React, plus modern libraries and frameworks. 
+                  Passionate about usability and possess the knowledge and working with computer hardware.
+                  I have attended Bottega tech <a href="https://bottega.tech">https://bottega.tech</a>, and <a href="https://www.udemy.com/">Udemy</a> courses on my free time.
+                  I enjoy building projects with React, like this website for example, it's built on React.
+              </p>
+            </div>
           </div>
 
           <div className="skill-container">
