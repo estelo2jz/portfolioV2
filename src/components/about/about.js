@@ -5,11 +5,11 @@ export default class About extends Component {
     return (
       <div className="about-container">
         <h1 id="about"></h1>
-        <h2>Estelo Abellanosa</h2>
-        <h3>Junior Full Stack developer</h3>
-        <h3>with React, Python, and JavaScript</h3>
         <div className="about-flex">
           <div className="about-info">
+            <h2>Estelo Abellanosa</h2>
+            <h3>Junior Full Stack developer</h3>
+            <h3>with React, Python, and JavaScript</h3>
             <p>
                 Innovative Full Stack Developer with 2 years of experience in building and maintaining websites. 
                 Proficient in HTML, SASS, JavaScript, Python, and React, plus modern libraries and frameworks. 
