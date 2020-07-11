@@ -7,6 +7,7 @@ import Expense from '../../assets/expense.png'
 import Lyrics from '../../assets/lyrics.png';
 import Razors from '../../assets/razor.png';
 import Budget from '../../assets/budget.png';
+import Bad from '../../assets/bad.png';
 
 export default class Projects extends Component {
   render() {
@@ -81,9 +82,20 @@ export default class Projects extends Component {
                 </a>
               </div>
             </div>
+            <div className="card">
+              <h4>Breaking Bad Cast api</h4>
+              <p className="text">React</p>
+              <div className="visual">
+                <a href="https://breakedbad-api.netlify.app/">
+                  <img className="image" src={Bad} alt=""/>
+                </a>
+              </div>
+            </div>
           {/* </div> */}
         </div>
       </div>
     )
   }
 }
+
+
