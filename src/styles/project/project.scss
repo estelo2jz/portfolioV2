@@ -4,12 +4,12 @@
   grid-gap: 1rem;
   grid-template-columns: repeat(4, 1fr);
   padding-bottom: 10px;
+  height: 100%;
+  width: 100%;
 
   .image {
-    height: 200px;
-    width: 200px;
-    margin-left: 170px;
-    margin-top: -150px;
+    height: 150px;
+    width: 150px;
   }
 
   .card:hover .image {
@@ -18,6 +18,8 @@
   
   .card:hover .text {
     opacity: 1;
+    position: relative;
+    display: block;
   }
 
   .text {
@@ -60,25 +62,23 @@
     h4 {
       margin-top: 100px;
       font-family: 'Montserrat', sans-serif;
+      font-size: 1em;
+
 
     }
 
     p {
-      margin-top: -200px;
       font-family: 'Montserrat Subrayada', sans-serif;
-
-
     }
     
-    .yellow {
-      // background-color: yellow;
-    }
   }
   
   .visual {
     height: 100px;
     width: 100%;
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
   }
   
   

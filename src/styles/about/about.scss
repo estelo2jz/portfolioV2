@@ -9,27 +9,23 @@
   background-color: rgb(219, 219, 213);
 
   h1 {
+    height: 10vh;
     padding-top: 50px;
     color: black;
-  }
-  h2 {
-    color: black;
-    padding: 10px;
-  }
-  h3 {
-    color: black;
-    padding: 10px;
   }
 
   h1,h2,h3 {
     font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 1em;
+
   }
 
   .about-flex {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 60%;
+    height: 80%;
     
     .about-info {
       height: 50vh;
@@ -40,12 +36,12 @@
         position: relative;
       }
       p {
-        font-size: 0.9em; line-height:2.2em; margin-bottom:1em;
+        font-size: 0.8em; line-height:2.2em;
         font-family: 'Roboto', sans-serif;
-        padding: 20px;
+        padding: 30px;
         color: black;
-        width: 50vh;
-        margin-left: 200px;
+        // width: 70vh;
+        // margin-left: 140px;
       }
 
       .about-para {
@@ -60,7 +56,9 @@
 
       h1 {
         padding-bottom: 50px;
-        padding-left: 60px;
+        padding-left: 110px;
+        font-size: 1em;
+
       }
 
       .skill-list {
@@ -70,6 +68,7 @@
         }
         text-decoration: none;
         li {
+          font-size: 0.7em;
           list-style-type: none;
           padding: 20px;
           font-family: 'Montserrat', sans-serif;

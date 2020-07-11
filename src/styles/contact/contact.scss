@@ -10,6 +10,8 @@
 
   h1 {
     padding-top: 50px;
+    // font-size: 0.8em;
+
   }
 
   .contact-flex {
@@ -25,10 +27,12 @@
       h2 {
         color: black;
         font-family: 'Montserrat', sans-serif;
+        font-size: 1em;
 
       }
 
       li {
+        font-size: 0.8em;
         display: grid;
         padding: 20px;
         text-decoration: none;
@@ -42,6 +46,8 @@
         padding: 20px;
         text-decoration: none;
         color: black;
+        font-size: 0.8em;
+
       }
     }
   }
