@@ -13,68 +13,75 @@ export default class Projects extends Component {
     return (
       <div className="project-container">
         <h3 id="project"></h3>
-        <div className="project-list">
-          <div className="left-items">
-            <div classname="project-items">
-              <div className="items">
+        <div className="parent">
+          {/* <div className="left-items"> */}
+            <div className="card">
+              <h4>Term's of Saving</h4>
+              <p className="text">React</p>
+              <div className="visual">
                 <a href="https://terms-react.netlify.app/">
-                  <img src={Terms} />
+                  <img className="image" src={Terms} alt=""/>
                 </a>
-                <h4>Term's of Saving</h4>
               </div>
             </div>
-            <div classname="project-items">
-              <div className="items">
+            <div className="card">
+              <h4>Shoe Library</h4>
+              <p className="text">React</p>
+              <div className="visual">
                 <a href="https://shoe-library.netlify.app/">
-                  <img src={Shoe} />
+                  <img className="image" src={Shoe} alt=""/>
                 </a>
-                <h4>Shoe Library</h4>
               </div>
             </div>
-            <div classname="project-items">
-              <div className="items">
+            <div className="card">
+              <h4>Gummy Stickers</h4>
+              <p className="text">React</p>
+              <div className="visual">
                 <a href="https://gummy-stickers.netlify.app/">
-                  <img src={Sticker} />
+                  <img className="image" src={Sticker} alt=""/>
                 </a>
-                <h4>Gummy Stickers</h4>
               </div>
             </div>
-            <div classname="project-items">
-              <div className="items">
+            <div className="card">
+              <h4>Expense Tracker</h4>
+              <p className="text">React</p>
+              <div className="visual">
                 <a href="https://react-expense.netlify.app/">
-                  <img src={Expense} />
+                  <img className="image" src={Expense} alt=""/>
                 </a>
-                <h4>Expense Tracker</h4>
               </div>
             </div>
-          </div>
+          {/* </div> */}
 
-          <div className="right-items">
-            <div classname="project-items">
-              <div className="items">
+          {/* <div className="right-items"> */}
+            <div className="card">
+              <h4>Lyrics Finder</h4>
+              <p className="text">React</p>
+              <div className="visual">
                 <a href="https://react-lyricsss.netlify.app/">
-                  <img src={Lyrics} />
+                  <img className="image" src={Lyrics} alt=""/>
                 </a>
-                <h4>Lyric Finder</h4>
               </div>
             </div>
-            <div classname="project-items">
-              <div className="items">
+            <div className="card">
+              <h4>Razors</h4>
+              <p className="text">Svelte</p>
+              <div className="visual">
                 <a href="https://svelte-razors-store.netlify.app/">
-                  <img src={Razors} />
+                  <img className="image" src={Razors} alt=""/>
                 </a>
-                <h4>Razors</h4>
               </div>
             </div>
-            <div classname="project-items">
-              <div className="items">
+            <div className="card">
+              <h4>Budget Calculator</h4>
+              <p className="text">Svelte</p>
+              <div className="visual">
                 <a href="https://svelte-budget-app.netlify.app/">
-                  <img src={Budget} />
+                  <img className="image" src={Budget} alt=""/>
                 </a>
-                <h4>Budget Calculator</h4>
               </div>
             </div>
-          </div>
+          {/* </div> */}
         </div>
       </div>
     )
