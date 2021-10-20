@@ -5,9 +5,9 @@ export default class Navigation extends Component {
     return (
       <div className="navigation-container">
         <div class="navbar">
-          <a href="#project">Projects</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
+          <a href="#project" activeClassName="nav-link-active">Projects</a>
+          <a href="#about" activeClassName="nav-link-active">About</a>
+          <a href="#contact" activeClassName="nav-link-active">Contact</a>
         </div>
       </div>
     )
